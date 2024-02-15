@@ -1,0 +1,44 @@
+/** Joshua Ostyn 
+    2/15/2024 **/
+
+body {font-size: 16px;
+      padding: 38px;
+      color: #333333;
+  }
+
+  a {
+    color: rgb(26, 184, 26);
+  }
+  a:hover {
+    color: aqua;
+  }
+
+/** Targeting classes  **/
+
+.mainHeader {
+  text-align: center;
+}
+.intro{
+  font-size: 24px;
+  color: burlywood;
+  padding: 20px, 60px;
+  text-align: center;
+}
+
+.highlight {
+  background-color: darksalmon;
+  padding: 5px;
+}
+
+/** ALERT CLASSES **/
+
+.alert {
+  background-color: red;
+  color: aliceblue;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.blue {
+  background-color: blue;
+}
