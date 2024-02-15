@@ -1,0 +1,28 @@
+/* Joshua Ostyn
+  2/15/2024
+  SWDV115 */
+
+  header {
+    background-color: cadetblue;
+  }
+
+  footer {
+    background-color: cadetblue;
+  }
+
+  p, ul, li {
+    font-size: 20px;
+  }
+
+  a:link {
+    color: #45e4e4;
+  }
+  a:visited {
+    color: #5739c2;
+  }
+  a:hover {
+    color: #641f64;
+  }
+  a:active {
+    color: aquamarine;
+  }
