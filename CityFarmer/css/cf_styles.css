@@ -1,0 +1,61 @@
+
+
+
+#outerwrapper {
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+} 
+
+.floatleft { 
+float: left;
+margin-right: 3%;
+
+}
+
+.floatright {
+float: right;
+margin-left: 3%;
+}
+
+main, footer { 
+clear: both;
+}
+
+body {
+	background-color: #B8D1Eb;
+	color: #000000;
+	font-family: 'Times New Roman', Times, serif;
+}
+main {
+	background-color: #C5A98B;
+	padding: 10px;
+
+}
+nav ul {
+	list-style-type: none;
+}
+
+h1 {
+	font-family: Tahoma, sans-serif;
+	font-size: 60px;
+}
+h2 {
+	font-family: Verdana, sans-serif;
+	font-weight: normal;
+	font-style: italic;
+}
+main ul {
+	 list-style-image: url("../images/tomatosmall.png"); 
+}
+footer {
+	background-color: #C5A98B;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: .75em;
+}
+footer {
+	text-align: center;
+	background-color: #6b5741;
+}
