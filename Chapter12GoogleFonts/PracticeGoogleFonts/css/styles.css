@@ -1,0 +1,15 @@
+/* Practice CustomFonts Style Sheet */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&family=Ojuju:wght@600&display=swap');
+
+
+
+body, .smurf {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.google {
+    font-family: "Ojuju", sans-serif;
+}
