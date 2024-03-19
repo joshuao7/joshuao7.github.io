@@ -52,11 +52,11 @@ h1 {
     font-family: 'Roboto-Black';
     src: url('../fonts/Roboto-Black.ttf') format("truetype");
 	src: url('../fonts/Roboto-BlackItalic.ttf') format("truetype");
-	font-size: 2em;
 	font-style: italic;
 }
 h2 {
 	font-family: 'Roboto-Black';
+		font-size: 2em;
 
 }
 nav{
