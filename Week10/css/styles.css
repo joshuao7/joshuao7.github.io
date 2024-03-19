@@ -1,0 +1,64 @@
+
+/*Joshua Ostyn
+	3/19/24*/
+
+
+#outerwrapper {	
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+	width: 70%;
+	text-align: center;
+	margin: auto;
+
+}
+header {
+	width: 80%;
+}
+html {
+	background-image: url(../images/jewelry.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+}
+footer {
+	font-size: 1em;
+	text-align: center;
+	padding-bottom: 10px;
+}
+main {
+	background: linear-gradient(#FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: 'Times New Roman', Times, serif, Verdana, sans-serif, 'Trebuchet MS', sans-serif;
+	text-align: left;
+}
+.addrightmargin {
+	float: left;
+	border-radius: 50%;
+	margin-right: 10%;
+}
+nav ul li {
+	list-style-type: none;
+	font-size: 1.5em;
+	float: none;
+}
+h1 {
+	font-family: "Pacifico", cursive;
+	font-size: 4em;
+  }
+  @font-face {
+    font-family: 'Roboto-Black';
+    src: url('../fonts/Roboto-Black.ttf') format("truetype");
+	src: url('../fonts/Roboto-BlackItalic.ttf') format("truetype");
+	font-size: 2em;
+	font-style: italic;
+}
+h2 {
+	font-family: 'Roboto-Black';
+
+}
+nav{
+	text-align: left;
+}
