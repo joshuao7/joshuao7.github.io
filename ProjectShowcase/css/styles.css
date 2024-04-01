@@ -1,0 +1,7 @@
+/* css used to target all portfolio web pages */
+/* applies to all web pages to promote consistency       */
+body {
+  background: rgba(204, 240, 199, 0.404);
+  color: #333333;
+  font-size: 1.25rem;
+}
