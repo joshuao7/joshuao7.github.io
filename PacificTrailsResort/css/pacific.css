@@ -1,0 +1,118 @@
+/* Joshua Ostyn 
+4.9.2024 */
+html, body {
+	height: 100%;
+}
+body 
+{ 
+	background-color: #FFFFFF;
+    color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+main {
+	margin: 4px;
+	padding: 4px;
+	height: 100%;
+}
+header 
+{ 
+	background-color: #000033;
+  	color: #FFFFFF; 
+	background-image: url(sunset.jpg);
+	background-position: right;
+	background-repeat: no-repeat; 
+	line-height: 400%;
+	text-indent: 1em;
+}
+img {
+	margin: 6px;
+	padding: 5px;
+	display: none;
+}
+nav
+{ 
+	background-color: #90C7E3;
+    font-weight: bold;
+	display: block;
+}
+
+h1 
+{ 
+  font-family: Georgia, 'Times New Roman', serif; 
+	margin: 0;
+	padding: 0;
+}
+	
+h2 
+{ 
+	color: #3399CC; 
+    font-family: Georgia, 'Times New Roman', serif; 
+	display: none;
+}
+	 
+h3 
+{ 
+	color: #000033;
+    font-family: Georgia, 'Times New Roman', serif; 
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	list-style-type: none;
+}
+ul
+{ 
+	list-style-image: url('../images/marker.gif'); 
+
+} 
+
+dt 
+{ 
+	color: #000033; 
+}
+
+#resort 
+{ 
+	color: #5C7FA3; 
+    font-weight: bold;
+}
+
+#contact
+{ 
+	font-size: 90%;
+}
+.resort{
+	font-weight: bold;
+	color: #5C7FA3;
+}
+footer {
+	font-size: 75%;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', serif;
+	background: linear-gradient(rgba(255,255,255,1), rgba(144,199,227,1));
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+/* **************************MOBILE **********************/
+
+@media screen and (min-width: 641px) {
+		img {
+			display: block;
+			max-width: 100%;
+		}
+		nav li{
+			display: inline;
+		}
+		h2 {
+			display: block;
+		}
+
+}
+
