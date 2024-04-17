@@ -1,0 +1,14 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Image {
+  content: url(../images/IMG_0002_50.jpg);
+}
+.Image { 
+  content: url(../images/IMG_0002_50.jpg);
+  padding: 15px; width: 300px; transition: width 1.5s ease-in-out 0.3s 
+  } 
+.Image:hover { width: 375px; }
