@@ -1,0 +1,64 @@
+/*Joshua Ostyn
+ SWDV115 */
+ 
+@font-face {
+  font-family: '3dumb';
+  src: url('../fonts/3dumb-webfont.woff2') format('woff2'),
+       url('../fonts/3dumb-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+.tableContainer {
+  padding-top: 60px;
+  margin-top: 90px;
+}
+table {
+  border-collapse:collapse;
+  padding-top: 80px;
+  margin: 2em auto;
+  }
+  caption{
+  color:rgb(248, 114, 248); 
+  border-radius: 15px;
+  border: 2px solid black;
+  font-size: 40px;
+  font-family: "Marcellus", serif, 'Times New Roman', Times, serif;
+  background-color: gray;
+  font-weight: bold;
+  }
+  table thead{
+  background-color: gray;
+  font-size: 30px;
+  color: white;
+  }
+  table tbody{
+  background-color: gray;
+  font-size: 18px;
+  border-radius: 15px;
+  }
+  table th {
+  padding: 6px;
+  border: 2px solid black;
+  font-family: "Marcellus", serif, 'Times New Roman', Times, serif;
+  }
+  table td {
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid black;
+  text-align:left;
+  padding:5px;
+  font-family: "Marcellus", serif, 'Times New Roman', Times, serif;
+  }
+  .aboutMeLink {
+    font-family: "Marcellus", serif, 'Times New Roman', Times, serif;
+    color: greenyellow;
+    text-decoration: none;
+  }
+  .aboutMeLink:hover {
+    color:rgb(248, 114, 248);
+  }
+  .tableSpan {
+    font-family: "Marcellus", serif, 'Times New Roman', Times, serif;
+  }

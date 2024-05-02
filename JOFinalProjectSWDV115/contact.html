@@ -1,0 +1,74 @@
+<!--Joshua Ostyn
+    SWDV115-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Student Name" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Joshua Ostyn Portfolio" />
+    <meta name="keywords" content="C# HTML5 CSS3 client-side server-side programmer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinalPortfolioProject</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" href="css/table.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapperBody">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="logo"><span>J</span>oshua <span>O</span>styn</a></li>
+          <li><a href="index.html"><span class="navLetter">H</span>OME</a></li>
+          <li><a href="aboutMe.html"><span class="navLetter">A</span>BOUT ME</a></li>
+          <li><a href="experience.html"><span class="navLetter">E</span>XPERIENCE</a></li>
+          <li><a href="contact.html"><span class="navLetter">C</span>ONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form action="mailto:joshuaostyn@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST" class="mainForm">
+        <fieldset>
+        <legend>Get In Touch!</legend>
+          <label for="company">Company:</label>
+          <input type="text" id="company" name="company " value="">
+          <label for="persontocontact">Person to contact:</label>
+          <input type="text" id="PTC" name="PersonToContactName " value=""><br>
+          <label for="email">Email:</label>
+          <input type="email" name="email " id="email" placeholder="Your Email" required>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" name="phone " id="phone" placeholder="000-000-0000" required>
+        </fieldset>
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+            <label for="typeOfPosition">Type of Position:</label>
+            <select name="Type of Position available " id="selectorTOP">
+              <option value="Internship">Internship</option>
+              <option value="Part-Time">Part-Time</option>
+              <option value="Full-Time">Full-Time</option>
+              <option value="Contract">Contract</option>
+              <option value="Temporary">Temporary</option>
+              <option value="On Call">On Call</option>
+            </select>
+                <p class="secondFormTitle">How did you find me?</p>
+                <input type="radio" name="howDidYouFindMe?" id="HDYFM" value="LinkedIn" /> <label for="LinkedIn">LinkedIn</label>
+                <input type="radio" name="howDidYouFindMe?" id="HDYFM" value="Job Fair" /> <label for="Job Fair">Job Fair</label>
+                <input type="radio" name="howDidYouFindMe?" id="HDYFM" value="CWI" /> <label for="LinkedIn">CWI Corporate Partner</label>
+              <textarea name="message " id="txtarea" cols="100" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <input type="submit" id="submit" value="Submit" class="btn">
+        </fieldset>
+     </form>
+    </main>
+    <footer>
+      <a href="https://www.linkedin.com/in/joshua-ostyn-a79212112/"     class="linkTag" target="_blank"><img src="images/whiteLinked (1).png" alt=""></a>
+      <a href="https://github.com/joshuao7/joshuao7.github.io" class="linkTag" target="_blank"><img src="images/whiteGit (2).png" alt=""></a>
+    </footer>
+  </div>
+</body>
+</html>
